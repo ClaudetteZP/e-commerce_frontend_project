@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Hourglass - Booking Form</title>
+	<link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Patua+One&display=swap" rel="stylesheet">
+	<link href="css/templatemo-style.css" rel="stylesheet" />	
+    <link href="css/booking.css" rel="stylesheet"/>
+</head>
+
+<body>
+  <div class="container">
+		<div class="placeholder">
+			<div class="parallax-window" data-parallax="scroll" data-image-src="img/hourglass.jpg">
+				<div class="tm-header">
+					<div class="row tm-header-inner">
+						<div class="col-md-6 col-12">
+							<img src="img/logo.JPG" alt="Logo" class="tm-site-logo"/> 
+							<div class="tm-site-text-box">
+								<h2 class="tm-site-title">Hourglass Photograhphy</h2>
+								<h2 class="tm-site-description">Great service for low prices.</h2>	
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+	<main>
+        <div class=" tm-nav">
+            <a class="tm-nav" href="index.html">Home</a>
+            <a class="tm-nav" href="about.html">About Us</a>
+            <a class="tm-nav" href="bookaphotographer.html">Book A Photographer</a>
+            <a class="tm-nav" href="piccropper.html">Photo Cropper</a>
+            <a class="tm-nav" href="store.html">Store</a>
+            <a class="tm-nav" href="FAQs.html">FAQs</a>
+            <a class="tm-nav" href="contact_us.html">Contact Us</a>
+            </div>
+        
+        <header>
+            <h1 class="formheader">Book a Photographer</h1>
+        </header>
+			
+        <div class="form">
+			<form id="form" action="/action_page.php">
+			<label for="fname">First Name</label>
+			<input type="text" id="fname" name="fname" required> <br>
+			<label for="lname">Last Name</label>
+			<input type="text" id="lname" name="lname" required> <br>
+			<label for="email">Enter your email:</label>
+			<input id="emailAddress" type="email"  maxLength="30" required placeholder="email@address.com"> <br>
+			<label for="phone">Enter a phone number:</label>
+			<input type="tel" id="phone" name="phone" placeholder="(123)456-7890" required><br>
+            <label>
+               Choose your preferred date:
+              <input type="date" name="booking" min="2021-01-01" max="2024-01-01" >
+                <span class="validity"></span>
+              </label>  <br>
+              <label for="appt-time">Choose preffered time: </label>
+            <input type="time" id="appt" name="appt"
+            min="09:00" max="18:00" ><br><br>
+			<label for="textarea">Comments?</label><br>
+			<textarea id="textarea" name="message" rows="5" cols="40" required>Please type here.</textarea><br>
+			<input class="bookhere" type="submit"  onclick="myFunction()" value="Book Here" >	
+        </form>
+	</div>
+    </main>				
+
+
+		<footer class="tm-footer text-center">
+			<p>Copyright &copy; 2021 Hourglass Photograhphy Co.
+            
+            | Designed by: Claudette Z. Penaredondo</a></p>
+		</footer>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/parallax.min.js"></script>
+
+
+
+</body>
+</html>

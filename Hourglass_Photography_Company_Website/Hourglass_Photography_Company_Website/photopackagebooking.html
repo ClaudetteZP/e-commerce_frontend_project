@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Hourglass- Booking Deal Form</title>
+	<link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Patua+One&display=swap" rel="stylesheet">
+	<link href="css/templatemo-style.css" rel="stylesheet" />
+	<link href="css/form.css" rel="stylesheet"/>
+</head>
+
+<body>
+  <div class="container">
+		<div class="placeholder">
+			<div class="parallax-window" data-parallax="scroll" data-image-src="img/hourglass.jpg">
+				<div class="tm-header">
+					<div class="row tm-header-inner">
+						<div class="col-md-6 col-12">
+							<img src="img/logo.JPG" alt="Logo" class="tm-site-logo"/> 
+							<div class="tm-site-text-box">
+								<h2 class="tm-site-title">Hourglass Photograhphy</h2>
+								<h2 class="tm-site-description">Great service for low prices.</h2>	
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+	<main>  
+        <header>
+            <h1 class="formheader">Photo Package Deal Booking Form</h1>
+        </header>
+			
+        <div class="form">
+			<form id="form" action="/action_page.php">
+			<label for="fname">First Name</label>
+			<input type="text" id="fname" name="fname" required> <br>
+			<label for="lname">Last Name</label>
+			<input type="text" id="lname" name="lname" required> <br>
+			<label for="email">Enter your email:</label>
+			<input id="emailAddress" type="email"  maxLength="30" required placeholder="email@address.com"> <br>
+			<label for="phone">Enter a phone number:</label>
+			<input type="tel" id="phone" name="phone" placeholder="(123)456-7890"  required><br><br>
+			<label id="checkbox">What is the best time to call you?</label><br>
+			<input type="checkbox" id="morning" name="morning" value="morning">
+			<label for="morning"> Morning</label><br>
+			<input type="checkbox" id="afternoon" name="afternoon" value="afternoon">
+			<label for="afternoon"> Afternoon</label><br>
+			<input type="checkbox" id="evening" name="evening" value="evening">
+			<label for="evening">Evening</label> <br><br>
+			</select>
+			<label for="textarea">Which Package Deal do you want?</label><br>
+			<textarea id="textarea" name="message" rows="5" cols="40" required>Please type here.</textarea><br>
+			<input class="bookhere" type="submit"  onclick="myFunction()" value="Book Here" >	
+        </form>
+	</div>
+    </main>				
+
+
+		<footer class="tm-footer text-center">
+			<p>Copyright &copy; 2021 Hourglass Photograhphy Co.
+            
+            | Designed by: Claudette Z. Penaredondo</a></p>
+		</footer>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/parallax.min.js"></script>
+
+</body>
+</html>

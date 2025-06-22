@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Hourglass - FAQs</title>
+	<link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+	<link href="css/templatemo-style.css" rel="stylesheet" />
+
+
+</head>
+
+<body> 
+
+	<div class="container">
+		<div class="placeholder">
+			<div class="parallax-window" data-parallax="scroll" data-image-src="img/hourglass.jpg">
+				<div class="tm-header">
+					<div class="row tm-header-inner">
+						<div class="col-md-6 col-12">
+							<img src="img/logo.JPG" alt="Logo" class="tm-site-logo" /> 
+							<div class="tm-site-text-box">
+								<h1 class="tm-site-title">Hourglass Photograhphy</h1>
+								<h6 class="tm-site-description">Great service for low prices.</h6>	
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		<main>
+			<div class=" tm-nav">
+				<a class="tm-nav" href="index.html">Home</a>
+				<a class="tm-nav" href="about.html">About Us</a>
+				<a class="tm-nav" href="bookaphotographer.html">Book A Photographer</a>
+                <a class="tm-nav" href="piccropper.html">Photo Cropper</a>
+				<a class="tm-nav" href="store.html">Store</a>
+				<a class="tm-nav" href="FAQs.html">FAQs</a>
+				<a class="tm-nav" href="contact_us.html">Contact Us</a>
+				</div>
+
+				<div class="col-12 tm-faq">
+                    <h2 class="text-center tm-section-title">FAQs</h2>
+                    
+                    <div class="tm-accordion">
+                        <button class="accordion">Return</button>
+                        <div class="panel">
+                          <p>If your item is damaged, the item must be unused and in the same condition that you received it. Your item must be in the original packaging. We will email you the postage label for you to send back the package to us, free of charge.<mark>You have 30 days from purchase to return.</mark> 
+                              If you have questions feel free to <a href="mailto:hourglass_return@photographyco.com">email us</a> or <a href="tel:407-305-0945"> call us. </a></p>
+                        </div>
+                        
+                        <button class="accordion">Refund for Items</button>
+                        <div class="panel">
+                          <p>Once we will received your item, we will inspect it, and notify you that we received your returned item. During the Refund process, we will notify you the status of your refund. Once we are done inspecting the item and the refund is approved, we will immediately notify you. We will refund the money to the original method of payment or credit card when you purchased the item. 
+                           <mark> Please contact your bank institution on how long your refund will take to be in your bank account. </mark>If you have questions or concerns on you refund status please feel free to <a href="tel:407-305-0945"> call us. </a> </p>
+                        </div>
+                        <button class="accordion">Refund for Services</button>
+                        <div class="panel">
+                            <p><mark>If you are not satisfied with the service we provided, we apologize. Hourglass Photography Company will give back your money, guaranteed.</mark> Feel free to call us in our special line <a href="tel:407-305-2390"> here </a> so we can better assist you.</p>
+                        </div>
+                        
+                        <button class="accordion">Shipping</button>
+                        <div class="panel">
+                          <p><mark>We use UPS Ground Shipping and it usually takes 1-5 business days.</mark> Please refer to the tracking number sent in your email and track the package <a href="https://www.ups.com/us/en/services/tracking/information.page" target="blank"> here.</a> If the package is lost please contact <a href="https://www.ups.com/fi/en/help-center/sri/los-dam.page" target="blank">UPS here.</a> </p>
+                        </div>
+                    </div>	
+                </div>
+            </div>
+        </div>
+		</div>
+			</main>
+
+		<footer class="tm-footer text-center">
+			<p>Copyright &copy; 2020 Hourglass Photography Co.
+            
+            | Designed by: Claudette Z. Penaredondo</p>
+		</footer>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/parallax.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			var acc = document.getElementsByClassName("accordion");
+			var i;
+			
+			for (i = 0; i < acc.length; i++) {
+			  acc[i].addEventListener("click", function() {
+			    this.classList.toggle("active");
+			    var panel = this.nextElementSibling;
+			    if (panel.style.maxHeight) {
+			      panel.style.maxHeight = null;
+			    } else {
+			      panel.style.maxHeight = panel.scrollHeight + "px";
+			    }
+			  });
+			}	
+		});
+	</script>
+</body>
+</html>
