@@ -1,12 +1,12 @@
-# Responsive E-Commerce Front-End Website
+# Hourglass Photography Company Responsive E-Commerce Front-End Website
 
 A fully responsive front-end website built using JavaScript, Bootstrap, jQuery, CSS, and HTML.
 This application offers a dynamic, interactive, and user-centered experience across devices.
 
-Project Scope
+Project Scope:
 
-Hourglass Photography Company requires a modern and responsive website to better serve both
-new and existing customers. The successful implementation of this project is crucial for the
+Hourglass Photography Company requires a modern and responsive website to serve both
+new and existing customers better. The successful implementation of this project is crucial for the
 company's global reach and driving sales growth. Without an approved and functional web presence,
 the business risks missing opportunities to connect with potential clients and increase profitability.
 
@@ -15,8 +15,8 @@ Features:
 - Interactive Google Map embedded on the Contact Page
 - Accordion-Style FAQs for an intuitive help section
 - Photo Gallery on the homepage to highlight key visuals
-- E-Commerce Page wtih shopping cart functionality and checkout simulation
-- Custom Photo Cropper: upload, crop, and save your own image
+- E-Commerce Page with shopping cart functionality and checkout simulation
+- Custom Photo Cropper: upload, crop, and save your image
 - Form Validation for accurate and responsive user feedback
 
 This project showcases my ability to design and build an engaging front-end website from the ground up, 
